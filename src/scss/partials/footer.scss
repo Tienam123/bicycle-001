@@ -1,0 +1,74 @@
+.footer {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  // .footer__firm
+  &__firm {
+  }
+
+  // .footer__social
+  &__social {
+  }
+
+  // .footer__owner
+  &__owner {
+  }
+}
+
+.footer-firm {
+  // .footer-firm__title
+  &__title {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #848789;
+  }
+
+  // .footer-firm__description
+  &__description {
+    font-size: 13.9px;
+    font-weight: 400;
+    font-style: italic;
+    color: #848789;
+    line-height: 17px;
+  }
+}
+
+.footer-social {
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-social-item {
+  a {
+    img {
+      width: 34px;
+    }
+  }
+}
+
+.footer-owner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  // .footer-owner__description
+  &__description {
+    font-size: 13.9px;
+    line-height: 17px;
+    font-weight: 400;
+    font-style: italic;
+    color: #848789;
+  }
+
+  // .footer-owner__logo
+  &__logo {
+    width: 55px;
+  }
+}

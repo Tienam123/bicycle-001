@@ -1,6 +1,6 @@
 {
   "name": "contacts-app",
-  "homepage": "https://{username}.github.io/{repo-name}/",
+  "homepage": "https://{username}.github.io/Tienam123/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.45",
     "sass": "^1.78.0",
     "tailwindcss": "^3.4.10",
@@ -25,6 +26,7 @@
     "glob": "^11.0.0",
     "modern-normalize": "^3.0.1",
     "path": "^0.12.7",
+    "swiper": "^11.1.14",
     "vite-plugin-html-inject": "^1.1.2"
   }
 }
